@@ -1,0 +1,136 @@
+
+/* for 375px or min screen */
+@media only screen and (max-width: 400px) {
+    @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Poppins:wght@200&family=Raleway&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    article {
+        width: 100%;
+        margin: 0;
+    }
+    p {
+        padding: 0;
+    }
+    /* Globel attributes for button */
+    .bton  {
+        width: 90%;
+        margin-bottom: 10px; 
+        height: 50px;
+    }
+    .strong_cyan {
+        margin-right: 0;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+    /* Start header */
+    .main_header {
+        background: url("../images/bg-header-mobile.png") no-repeat ;
+        padding-top: 40px;
+        margin-bottom: 60px;
+    }
+    .main_header img {
+        margin-bottom: 70px;
+    }
+
+    /* Start snippets */
+    .snippets > p {
+        margin: 0;
+
+    }
+    .snippets div {
+        flex-direction: column;
+        padding: 2%;
+    }
+    .snippets img {
+        width: 100%;
+        margin: 80px 0;
+    }
+    .snippets div div {
+        display: none;
+    }
+    .snippets article {
+        padding: 0;
+        text-align: center;
+    }
+    .snippets article p {
+        padding: 0;
+    }
+
+    /* Start access clipnoard anywhere */
+    .access_clipboard {
+        margin-top: 100px;
+    }
+    .access_clipboard img {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        box-shadow: 0 20px 50px  rgb(224, 213, 213);
+    }
+
+        
+    /* Start supercharge your workflow */
+    .supercharge p {
+        margin-bottom: 22%;
+        margin-top: 4%;
+    }
+    .supercharge .tools {
+        flex-direction: column;
+    }
+    .supercharge .tools img {
+        margin-bottom: 5%;
+    }
+    .supercharge .tools p {
+        padding: 0;
+    }
+    .logos {
+        flex-direction: column;
+        padding-top: 7px;
+    }
+    .logos img {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 60px;
+    }
+
+    /* Start clipboard */
+    .clipboard {
+        margin-top: 150px;
+    }
+    .clipboard h2 {
+        margin-bottom: 7%;
+    }
+    .clipboard p {
+        margin-bottom: 10%;
+    }
+
+    
+    /* Start footer */
+    footer {
+        flex-direction: column;
+        margin-top: 100px;
+        height: 400px;
+        padding-left: 0;
+
+    }
+    footer > img {
+        margin: 0 0 20px 160px;
+    }
+    footer ul {
+        margin-left: 0;
+    }
+    footer ul li {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .social_media_logos img {
+        margin-right: 25px;
+    }
+
+
+}
